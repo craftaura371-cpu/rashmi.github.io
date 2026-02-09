@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Chathuranga ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" src="music.mp3"></audio>
+
+<div class="card">
+  <img src="photo.jpg" class="photo">
+
+  <h1>Chathuranga Lakmal ❤️</h1>
+
+  <p class="msg">
+    I made this little surprise just for you.  
+    You mean more to me than words can ever say.
+  </p>
+
+  <button onclick="playMusic()">▶ Play Music</button>
+  <button onclick="showMessage()">💌 Open Secret</button>
+
+  <p id="secret" class="hidden">
+    No matter what happens, you will always be  
+    my favorite person and my safest place. 💖  
+    <br><br>
+    — Rashmi
+  </p>
+</div>
+
+<script>
+  function playMusic() {
+    document.getElementById("bgMusic").play();
+  }
+
+  function showMessage() {
+    document.getElementById("secret").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
