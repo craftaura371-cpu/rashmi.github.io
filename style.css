@@ -1,1 +1,28 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #fff0f5;
+}
 
+.main-photo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  background: pink;
+  margin: 10px;
+}
+
+#hiddenMsg {
+  display: none;
+  font-size: 18px;
+  margin-top: 20px;
+}
