@@ -1,1 +1,51 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Love ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PHOTO -->
+  <img src="photo.jpg" class="main-photo">
+
+  <!-- TEXT -->
+  <h1>I love you ❤️</h1>
+  <p>You are my everything</p>
+
+  <!-- MUSIC BUTTON -->
+  <button onclick="playMusic()" id="musicBtn">
+    💖 Tap to play music
+  </button>
+
+  <!-- AUDIO -->
+  <audio id="bgMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- HIDDEN MESSAGE BUTTON -->
+  <button onclick="showMsg()" id="msgBtn">
+    💌 Click for surprise
+  </button>
+
+  <!-- HIDDEN MESSAGE -->
+  <p id="hiddenMsg">
+    You are the best thing that ever happened to me 🥹❤️
+  </p>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    function playMusic() {
+      document.getElementById("bgMusic").play();
+      document.getElementById("musicBtn").style.display = "none";
+    }
+
+    function showMsg() {
+      document.getElementById("hiddenMsg").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
